@@ -13,8 +13,8 @@ export const Home = ()=>{
                         <h1 className="text-white mt-3" id="name">HARI PRASATH J</h1>
                         <p className="text-white h5 mt-3">Full Stack Developer | Problem Slover | Creative Thinker | Web Desingner</p>
                         <div className="d-flex flex-row gap-4 mt-4">
-                            <NavLink className="btn px-5 py-3 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
-                            <NavLink className="btn px-5 py-3 rounded-pill border-0" id="download-btn">Download Resume</NavLink>
+                            <NavLink className="btn px-sm-5 py-sm-3 px-4 py-2 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
+                            <NavLink className="btn px-sm-5 py-sm-3 px-4 py-2 rounded-pill border-0" id="download-btn">Download Resume</NavLink>
                         </div>
                     </div>
                     <div className="image-container-mobile">
@@ -22,7 +22,7 @@ export const Home = ()=>{
                     </div>
                     <div className="col-lg-3 me-xl-5 me-2 col-12 p-3 rounded-4 bg-white position-relative" id="project-container">
                         <div className="w-100 overflow-hidden rounded-4" id="project-img"><img src={cover} alt="" className="w-100 h-100"/></div>
-                        <p className="mt-1 ms-2 mb-0" id="project-tag">Projects</p>
+                        <p className="mt-1 ms-2 h3 mb-0" id="project-tag">Projects</p>
                         <p className="mt-1 ms-2 mb-1" id="project-para">My first project with fresh knowlege in the web development</p>
                         <NavLink className="text-decoration-underline ms-2 mb-0 text-black" to="/about">Know more</NavLink>
                         <NavLink className="btn m-2 ps-1 pb-1 pe-0 pt-0 d-flex justify-content-center align-items-center" id="linkedin-btn" to="/about"><FaGithub id="linkedin-logo"/></NavLink>
@@ -31,7 +31,7 @@ export const Home = ()=>{
                 <div className="image-container">
                     <img src={mypic} alt="" className="w-100 h-100" id="mypic"/>
                 </div>
-                <div className="second-container row justify-content-between g-3 w-100 me-xl-5 me-0 p-2 gap-4">
+                <div className="second-container row justify-content-between w-100 me-xl-5 pb-3 gap-4">
                     <div className="col-lg-7 col-12 link-container p-0 d-flex gap-3 justify-content-start align-items-end mt-4">
                         <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-black" href="#"><FaLinkedinIn /></a></div>
                         <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-black" href="#"><FaInstagram /></a></div>

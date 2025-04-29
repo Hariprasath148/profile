@@ -36,7 +36,6 @@
 }
 
 #project-tag {
-    font-size: 18px;
     font-weight: 500;
 }
 
@@ -82,7 +81,7 @@
 }
 
 #project-para {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .image-container {
@@ -99,7 +98,7 @@
     display: none;
 }
 
-@media (max-width : 900px) {
+@media (max-width : 995px) {
     .first-container {
         position: static;
     }
@@ -117,5 +116,6 @@
 
     .second-container {
         position: static;
+        width: auto !important;
     }
 }
