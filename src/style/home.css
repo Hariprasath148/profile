@@ -33,6 +33,9 @@
     min-height: 280px;
     max-height: fit-content;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.250);
+    opacity: 0;
+    animation: fade 1s ease forwards;
+    animation-delay: 1s;
 }
 
 #project-tag {
@@ -44,15 +47,26 @@
     font-weight: 500;
 }
 
+#name {
+    font-weight: 500;
+}
+
 .skill-container {
     background-color: hsla(0, 0%, 100%, 0.500);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.250);
+    opacity: 0;
+    animation: fade 1s ease forwards;
+    animation-delay: 1.5s;
 }
 
 .social-icon {
     width: 50px;
     height: 50px;
     background-color: hsla(0, 0%, 100%, 0.500);
+}
+
+.social-icon a {
+    color: white;
 }
 
 #mypic {
@@ -68,6 +82,18 @@
     right : 0;
     background-color: white;
     border-radius: 0 0 0 25px;
+}
+
+.title-container {
+    opacity: 0;
+    animation: fade 1s ease forwards;
+    animation-delay: 0.5s;
+}
+
+.link-container {
+    opacity: 0;
+    animation: fade 1s ease forwards;
+    animation-delay: 2s;
 }
 
 #linkedin-logo {
@@ -92,6 +118,7 @@
     height: 100%;
     left: 50%;
     transform: translateX(-50%) translateY(16px);
+    animation: fade 1s ease;
 }
 
 .image-container-mobile {
@@ -117,5 +144,14 @@
     .second-container {
         position: static;
         width: auto !important;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
