@@ -5,7 +5,7 @@
 }
 
 .nav-link.active {
-    color:  #00BEDC;
+    color:  var(--main-color);
 }
 
 .mobile-nav {

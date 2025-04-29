@@ -7,10 +7,10 @@ import { Navbar } from '../components/Navbar';
 export const Main_layout = () => {
   return (
     <>
-        <div className='vh-100 vw-100 overflow-auto p-3'>
-            <div className='root-container w-100 h-100 rounded-4'>
+        <div className='vh-100 vw-100 p-3'>
+            <div className='root-container overflow-auto w-100 h-100 rounded-4'>
                 <Navbar/>
-                <div className='main-outlet-container'>
+                <div className='main-outlet-container p-3'>
                     <Outlet/>
                 </div>
             </div>

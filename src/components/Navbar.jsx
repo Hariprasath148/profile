@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <>
-        <div className="navbar-container d-flex justify-content-center">
+        <div className="navbar-container d-flex justify-content-center sticky-top">
             <div className='navbar p-3 px-5 d-flex gap-5 bg-white'>
                 <p className='m-0'><NavLink to="/" className={({isActive})=>(isActive ? "text-decoration-none nav-link active": "text-decoration-none nav-link")}>Home</NavLink></p>
                 <p className='m-0'><NavLink to="/projects" className={({isActive})=>(isActive ? "text-decoration-none nav-link active": "text-decoration-none nav-link")}>Projects</NavLink></p>
