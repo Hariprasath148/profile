@@ -1,4 +1,7 @@
 
 :root {
-    --main-color :  #01afdc;
+    --main-color :  #01a2cc;
+    --main-color2 :  #FF7F3E;
+    --box-shadow : 0px 0px 35px rgb(0, 0, 0);
+    --box-shadow-inset : 0px 0px 30px rgb(0, 0, 0) inset;
 }

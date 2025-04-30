@@ -1,6 +1,6 @@
 import "../style/home.css"
 import { NavLink } from "react-router-dom"
-import cover from "../assets/images/projectCover.png"
+import cover from "../assets/images/projectCover2.png"
 import mypic from "../assets/images/mypic.png"
 import { FaLinkedinIn , FaInstagram , FaTwitter , FaGithub  } from "react-icons/fa";
 
