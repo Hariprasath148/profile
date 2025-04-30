@@ -1,0 +1,47 @@
+
+.heading-text {
+    font-weight: 500;
+    color: white;
+}
+
+.about-para , .about-heading ,.programming-heading {
+    animation: fade 1s ease;
+}
+
+.heading-line {
+    background-color: var(--main-color2);
+    height: 4px;
+}
+
+.skill-icon {
+    width: 35px;
+    height: 35px;
+    color: var(--main-color);
+}
+
+.skill-box {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    min-height: 245px !important;
+    animation: fade 1s ease;
+    animation-timeline: view(1%);
+    transition: 0.5s;
+}
+
+.skill-box:hover {
+    background-color: var(--main-color2);
+    box-shadow: var(--box-shadow);
+    min-height: 245px !important;
+    color: white;
+}
+
+.progress-line {
+    height: 12px;
+    background: linear-gradient(90deg,var(--main-color) var(--progress), var(--main-color2) var(--progress));
+}
+
+.skill-box:hover .progress-line {
+    height: 12px;
+    transition: 0.5s;
+    background: linear-gradient(90deg,var(--main-color) var(--progress), white var(--progress));
+}
