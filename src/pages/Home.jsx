@@ -3,6 +3,21 @@ import { NavLink } from "react-router-dom"
 import cover from "../assets/images/projectCover2.png"
 import mypic from "../assets/images/mypic.png"
 import { FaLinkedinIn , FaInstagram , FaTwitter , FaGithub  } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa6";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
+import { RiReactjsFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa6";
+import { DiMongodb } from "react-icons/di";
+import { FaJava } from "react-icons/fa6";
+import { FaFigma } from "react-icons/fa6";
+import { FaWix } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
+import { SiCanva } from "react-icons/si";
+import { SiEclipseide } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+
 
 export const Home = ()=>{
     return (
@@ -41,6 +56,25 @@ export const Home = ()=>{
                     <div className="col-lg-4 col-12 skill-container m-lg-4 m-0 p-3 rounded-4">
                         <p className="mt-1 ms-2 mb-0 text-white" id="skill-tag">10+ Skills</p>
                         <p className="mt-1 ms-2 mb-1 text-white" id="skil-para">I am the Skills in the more than 10 programming languages and tha 5 plus software knowledge.</p>
+                        <div className="scroll-bar py-2">
+                            <div className="logo-wrapper">
+                                <FaHtml5 className="scroll-logo" style={{"--i" : "1"}}/>
+                                <FaCss3Alt className="scroll-logo" style={{"--i" : "2"}}/>
+                                <FaJsSquare className="scroll-logo" style={{"--i" : "3"}}/>
+                                <RiReactjsFill className="scroll-logo" style={{"--i" : "4"}}/>
+                                <FaBootstrap className="scroll-logo" style={{"--i" : "5"}}/>
+                                <DiMongodb className="scroll-logo" style={{"--i" : "6"}}/>
+                                <FaNodeJs className="scroll-logo" style={{"--i" : "7"}}/>
+                                <FaJava className="scroll-logo" style={{"--i" : "8"}}/>
+                                <FaFigma className="scroll-logo" style={{"--i" : "9"}}/>
+                                <FaWix className="scroll-logo" style={{"--i" : "10"}}/>
+                                <FaGithub className="scroll-logo" style={{"--i" : "11"}}/>
+                                <VscVscode className="scroll-logo" style={{"--i" : "12"}}/>
+                                <SiCanva className="scroll-logo" style={{"--i" : "13"}}/>
+                                <SiEclipseide className="scroll-logo" style={{"--i" : "14"}}/>
+                                <FaPython className="scroll-logo" style={{"--i" : "15"}}/>
+                            </div>
+                        </div>
                         <NavLink className="text-decoration-underline ms-2 mb-0 text-black text-white" to="/about">Know more</NavLink>
                     </div>
                 </div>
