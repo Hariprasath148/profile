@@ -1,0 +1,20 @@
+.project-discription {
+    min-width: 300px;
+    min-height: 300px
+}
+
+
+.project-img {
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    z-index: 100;
+}
+
+.project-img-shadhow {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: radial-gradient(circle,rgba(1, 162, 204, 1) 0%, rgba(0, 0, 0, 0) 49%);
+}
