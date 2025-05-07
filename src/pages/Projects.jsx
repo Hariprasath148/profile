@@ -20,7 +20,7 @@ export const Projects = () => {
                   ))
                 }
               </div>
-              <div className='project-button-container mt-2 d-flex flex-wrap gap-3'>
+              <div className='project-button-container mt-2 d-flex flex-wrap gap-2'>
                 <a href={project.siteLink} target='blank' className='px-3 py-2 text-decoration-none rounded-2 project-navigate-buttons project-navigate-buttons-visit'>Visit Site</a>
                 <NavLink to={`/projects/${project.route}`} className='px-3 py-2 text-decoration-none rounded-2 project-navigate-buttons project-navigate-buttons-more'>Know More</NavLink>
                 <a href={project.codeLink} target='blank' className='px-3 py-2 text-decoration-none rounded-2 project-navigate-buttons project-navigate-buttons-code'>View Code</a>
