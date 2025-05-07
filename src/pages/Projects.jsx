@@ -10,7 +10,7 @@ export const Projects = () => {
       {
         projects.map((project)=> (
           <div className="row project-section" key={project.name} >
-            <div className="col-lg-6 col-12 project-discription p-lg-5 p-4 d-flex flex-column justify-content-center">
+            <div className="col-lg-6 col-12 project-discription p-lg-5 p-3 d-flex flex-column justify-content-center">
               <p className='display-6 mb-1 project-name'>{project.name}</p>
               <p className='project-discription-para'>{project.short_discription}</p>
               <div className='project-tech-stack d-flex flex-wrap gap-2 mb-3'>
