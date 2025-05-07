@@ -5,24 +5,4 @@
     box-shadow: var(--box-shadow-inset);
 }
 
-.reveal-container {
-    width: 100%;
-    height: 100%;
-    background-color: var(--main-color);
-    z-index: 10000;
-    display: block;
-    transition: width 1s;
-}
-
-.reveal-container.active {
-    width: 0px;
-}
-
-#reveal-btn {
-    width: fit-content;
-    height: fit-content;
-    display: block;
-    background-color: var(--main-color2);
-    color: white;
-}
 

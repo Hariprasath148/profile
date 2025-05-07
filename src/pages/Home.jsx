@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import "../style/home.css"
 import { NavLink } from "react-router-dom"
 import cover from "../assets/images/projectCover2.png"
@@ -20,6 +21,21 @@ import { FaPython } from "react-icons/fa";
 
 
 export const Home = ()=>{
+
+    const [state,setState] = useState(true);
+    const reveal = ()=> {
+    document.querySelector(".reveal-container").classList.toggle("active");
+    setTimeout(() => {
+      setState(false)
+    }, 1000);
+    }
+
+    if(state) {
+        return ( <div className="reveal-container d-flex overflow-hidden justify-content-center flex-wrap align-content-center p-3">
+                    <div className='w-100 h-100 reveal-container-inside d-flex justify-content-center flex-wrap align-content-center rounded-4'><button id="reveal-btn" className='p-5 border-0 rounded-pill' onClick={reveal}>open</button></div>
+                </div> );
+    }
+
     return (
         <>
            <div className="home-container w-100 p-4">
