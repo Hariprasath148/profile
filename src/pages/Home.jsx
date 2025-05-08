@@ -42,10 +42,10 @@ export const Home = ()=>{
                 <div className="first-container row justify-content-between g-4 w-100">
                     <div className="col-lg-5 col-12 title-container p-0 d-flex justify-content-center flex-column">
                         <h1 className="text-white mt-3 mb-0 display-2" id="name">HARI PRASATH J</h1>
-                        <p className="text-white h5 mt-1">Full Stack Developer | Problem Slover | Creative Thinker | Web Desingner</p>
+                        <p className="text-white h5 mt-1" id="known-tags">Full Stack Developer | Problem Slover | Creative Thinker | Web Desingner</p>
                         <div className="d-flex flex-row gap-4 mt-2">
-                            <NavLink className="btn px-sm-5 py-sm-3 px-4 py-2 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
-                            <NavLink className="btn px-sm-5 py-sm-3 px-4 py-2 rounded-pill border-0" id="download-btn">Download Resume</NavLink>
+                            <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
+                            <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="download-btn">Download Resume</NavLink>
                         </div>
                     </div>
                     <div className="image-container-mobile">
@@ -64,13 +64,13 @@ export const Home = ()=>{
                 </div>
                 <div className="second-container row justify-content-between w-100 me-xl-5 pb-3 gap-4">
                     <div className="col-lg-7 col-12 link-container p-0 d-flex gap-3 justify-content-start align-items-end mt-4">
-                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="#"><FaLinkedinIn /></a></div>
-                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="#"><FaInstagram /></a></div>
-                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="#"><FaTwitter /></a></div>
-                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="#"><FaGithub /></a></div>
+                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.linkedin.com/in/hari-prasath-j-238776291/" target="_blank"><FaLinkedinIn /></a></div>
+                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://github.com/Hariprasath148" target="_blank"><FaGithub /></a></div>
+                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.instagram.com/_.hari.prasath._/" target="_blank"><FaInstagram /></a></div>
+                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://x.com/janhhari" target="_blank"><FaTwitter /></a></div>
                     </div>
                     <div className="col-lg-4 col-12 skill-container m-lg-4 m-0 p-3 rounded-4">
-                        <p className="mt-1 ms-2 mb-0 text-white" id="skill-tag">10+ Skills</p>
+                        <p className="mt-1 ms-2 mb-0" id="skill-tag">10+ Skills</p>
                         <p className="mt-1 ms-2 mb-1 text-white" id="skil-para">I am the Skills in the more than 10 programming languages and tha 5 plus software knowledge.</p>
                         <div className="scroll-bar py-2">
                             <div className="logo-wrapper">

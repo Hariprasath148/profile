@@ -85,6 +85,7 @@
 #skill-tag {
     font-size: 25px;
     font-weight: 500;
+    color: var(--main-color2);
 }
 
 #name {
@@ -93,11 +94,13 @@
 }
 
 .skill-container {
-    background-color: rgba(255, 255, 255, 0.502);
+    background-color: rgba(255, 255, 255, 0.200);
     box-shadow: var(--box-shadow);
     opacity: 0;
     animation: fade 1s ease forwards;
     animation-delay: 1.5s;
+    box-shadow: 0 0 20px var(--main-color) inset;
+    border: 1px solid var(--main-color);
 }
 
 .social-icon {
@@ -107,8 +110,21 @@
     transition: 0.5s;
 }
 
-.social-icon:hover {
-    background-color: var(--main-color2);
+.social-icon:nth-child(1):hover {
+    background-color: #0077B5;
+}
+
+.social-icon:nth-child(2):hover {
+    background-color: #000000;
+}
+
+.social-icon:nth-child(3):hover {
+    background: hsla(47, 94%, 59%, 1);
+    background: linear-gradient(45deg, hsla(47, 94%, 59%, 1) 0%, hsla(24, 91%, 71%, 1) 20%, hsla(260, 69%, 50%, 1) 100%);
+}
+
+.social-icon:nth-child(4):hover {
+    background-color: #1DA1F2;
 }
 
 #mypic {
@@ -191,7 +207,7 @@
     position: absolute;
     animation: scroll-left 5s calc(5s / 15 * (15 -  var(--i)) * -1 ) infinite linear;
     left: 100%;
-    color: white;
+    color: var(--main-color);
 }
 
 
@@ -226,6 +242,26 @@
         position: static;
         width: auto !important;
     }
+}
+@media (max-width : 460px) {
+    #name {
+        font-size: 8vw;
+    }
+
+    #known-tags {
+        font-size: 18px;
+    }
+
+    #about-me-btn {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #download-btn {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
 }
 
 @keyframes fade {
