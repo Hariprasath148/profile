@@ -8,7 +8,7 @@ export const Main_layout = () => {
 
   return (
     <>
-        <div className='vh-100 vw-100 p-3'>
+        <div className='vh-100 vw-100 p-lg-3 p-2'>
             <div className='root-container overflow-auto w-100 h-100 rounded-4'>
                 <>
                   <Navbar/>

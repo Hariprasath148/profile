@@ -21,7 +21,6 @@
 
 .skill-box {
     background-color: white;
-    box-shadow: var(--box-shadow);
     min-height: 245px !important;
     animation: fade 1s ease;
     animation-timeline: view(1%);
@@ -30,7 +29,6 @@
 
 .skill-box:hover {
     background-color: var(--main-color2);
-    box-shadow: var(--box-shadow);
     min-height: 245px !important;
     color: white;
 }

@@ -1,7 +1,6 @@
 
 .navbar {
     border-radius: 0 0 50px 50px;
-    box-shadow: var(--box-shadow);
 }
 
 .nav-link {
@@ -29,7 +28,6 @@
     height: 0px;
     transition: height 0.5s ease;
     padding: 0 !important;
-    box-shadow: var(--box-shadow);
 }
 
 .mobile-nav.active .mobile-nav-link-container {

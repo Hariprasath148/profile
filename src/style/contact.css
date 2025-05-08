@@ -1,0 +1,20 @@
+
+.contact-icons {
+    width: 50%;
+    height: 50%;
+    color: var(--main-color2);
+}
+
+.contact-tag {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.form-control {
+    box-shadow: 0 0 5px #0000006b inset;
+}
+
+.submit-buton {
+    font-size: 18px;
+    background-color: var(--main-color2);
+}

@@ -72,7 +72,6 @@
 #project-container {
     min-height: 280px;
     max-height: fit-content;
-    box-shadow: var(--box-shadow);
     opacity: 0;
     animation: fade 1s ease forwards;
     animation-delay: 1s;
