@@ -8,14 +8,14 @@ export const Main_layout = () => {
 
   return (
     <>
-        <div className='vh-100 vw-100 p-lg-3 p-2'>
+        <div className='vw-100 p-lg-3 p-2' id="root-container-wrapper">
             <div className='root-container overflow-auto w-100 h-100 rounded-4'>
                 <>
                   <Navbar/>
                     <div className='main-outlet-container p-3'>
                       <Outlet/>
                     </div>
-                 </>
+                </>
             </div>
         </div>
     </>
