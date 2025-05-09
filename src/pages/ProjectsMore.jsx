@@ -30,7 +30,7 @@ export const ProjectsMore = () => {
                         <div className="project-tech-name">Technology Used</div>
                         {
                             Object.entries(project.tech).map(([Key,value]) => (
-                                <div className="row mt-3">
+                                <div className="row mt-3" key={Key}>
                                     <div className="project-tech col-lg-3 col-12 ps-lg-4 ps-2">{Key}</div>
                                     <div className="project-tech-discription col-lg-9 col-12 mt-lg-0 mt-2">{value}</div>
                                 </div>
@@ -40,8 +40,8 @@ export const ProjectsMore = () => {
                     <div className="project-skill-container bg-light mt-4 rounded-4 p-4">
                         <div className="project-keyPoint-name">Key Points</div>
                         <ul className='mt-3 mb-0'>
-                            {project.keyPoints.map((keyPoint)=> (
-                                <li className="mt-3">{keyPoint}</li>
+                            {project.keyPoints.map((keyPoint,index)=> (
+                                <li className="mt-3" key={index}>{keyPoint}</li>
                             ))
                             }
                         </ul>
