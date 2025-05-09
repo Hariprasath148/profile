@@ -32,13 +32,17 @@ export const Home = ()=>{
 
     if(state) {
         return ( <div className="reveal-container d-flex overflow-hidden justify-content-center flex-wrap align-content-center p-3">
-                    <div className='w-100 h-100 reveal-container-inside d-flex justify-content-center flex-wrap align-content-center rounded-4'><button id="reveal-btn" className='p-5 border-0 rounded-pill' onClick={reveal}>open</button></div>
+                    <div className='w-100 h-100 reveal-container-inside d-flex justify-content-center flex-wrap align-items-center rounded-4 flex-column'>
+                        <p className='display-3' id='load-head'>Hey What's up</p>
+                        <p className='mt-1 text-center' id='load-text'>Click the button below to know about me.</p>
+                        <button id="reveal-btn" className='py-3 px-5 rounded-pill mt-3' onClick={reveal}>open</button>
+                    </div>
                 </div> );
     }
 
     return (
         <>
-           <div className="home-container w-100 p-4">
+           <div className="home-container w-100 p-lg-4 p-2">
                 <div className="first-container row justify-content-between g-4 w-100">
                     <div className="col-lg-5 col-12 title-container p-0 d-flex justify-content-center flex-column">
                         <h1 className="text-white mt-3 mb-0 display-2" id="name">HARI PRASATH J</h1>
