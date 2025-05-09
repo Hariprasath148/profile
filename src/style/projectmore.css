@@ -43,3 +43,14 @@
     background-color: white;
     color: var(--main-color)
 }
+
+@media (max-width : 560px) {
+
+    .project-keyPoint-name {
+        margin-left: 5px;
+    }
+
+    .project-skill-container {
+        padding-left: 12px  !important;
+    }
+}
