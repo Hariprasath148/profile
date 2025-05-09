@@ -44,16 +44,16 @@ export const Home = ()=>{
         <>
            <div className="home-container w-100 p-lg-4 p-2">
                 <div className="first-container row justify-content-between g-4 w-100">
-                    <div className="col-lg-5 col-12 title-container p-0 d-flex justify-content-center flex-column">
+                     <div className="image-container-mobile">
+                        <img src={mypic} alt="" className="w-100 h-100" id="mypic"/>
+                    </div>
+                    <div className="col-lg-5 col-12 title-container m-0 p-0 d-flex justify-content-center flex-column">
                         <h1 className="text-white mt-3 mb-0 display-2" id="name">HARI PRASATH J</h1>
                         <p className="text-white h5 mt-1" id="known-tags">Full Stack Developer | Problem Slover | Creative Thinker | Web Desingner</p>
                         <div className="d-flex flex-row gap-4 mt-2">
                             <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
                             <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="download-btn">Download Resume</NavLink>
                         </div>
-                    </div>
-                    <div className="image-container-mobile">
-                        <img src={mypic} alt="" className="w-100 h-100" id="mypic"/>
                     </div>
                     <div className="col-lg-3 me-xl-5 me-2 col-12 p-3 rounded-4 bg-white position-relative" id="project-container">
                         <div className="w-100 overflow-hidden rounded-4" id="project-img"><img src={cover} alt="" className="w-100 h-100"/></div>
