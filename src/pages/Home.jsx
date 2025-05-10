@@ -2,7 +2,7 @@ import { useState } from 'react'
 import "../style/home.css"
 import { NavLink } from "react-router-dom"
 import cover from "../assets/images/projectCover2.png"
-import mypic from "../assets/images/mypic.png"
+import mypic from "../assets/images/mypic2.png"
 import { FaLinkedinIn , FaInstagram , FaTwitter , FaGithub  } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3Alt } from "react-icons/fa";
