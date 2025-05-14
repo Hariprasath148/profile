@@ -43,7 +43,7 @@ export const Contact = () => {
               </div>
               <div className="col-10">
                 <p className='contact-tag text-white mb-2'>Resume</p>
-                <p className='contact-discription text-white mt-0'><a href="#" className='text-decoration-none text-white'>Dowload Resume</a></p>
+                <p className='contact-discription text-white mt-0'><a href='/Resume.pdf' download className='text-decoration-none text-white'>Dowload Resume</a></p>
               </div>
             </div>
         </div>

@@ -52,7 +52,7 @@ export const Home = ()=>{
                         <p className="text-white h5 mt-1" id="known-tags">Full Stack Developer | Problem Solver | Creative Thinker | Web Designer</p>
                         <div className="d-flex flex-row gap-4 mt-2">
                             <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
-                            <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="download-btn">Download Resume</NavLink>
+                            <a href='/Resume.pdf' download className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="download-btn">Download Resume</a>
                         </div>
                     </div>
                     <div className="col-lg-3 me-xl-5 me-2 col-12 p-3 rounded-4 bg-white position-relative" id="project-container">
