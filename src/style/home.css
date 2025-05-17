@@ -259,6 +259,7 @@
 @media (max-width : 995px) {
     .first-container {
         position: static;
+        margin: 0 !important;
     }
 
     .image-container {
@@ -275,6 +276,7 @@
     .second-container {
         position: static;
         width: auto !important;
+        margin: 0 !important;
     }
 }
 @media (max-width : 460px) {
