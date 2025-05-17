@@ -116,7 +116,7 @@
     color: var(--main-color2);
 }
 
-#name {
+#hero-name {
     font-weight: 500;
     font-family: none !important;
     color: var(--main-color) !important;
@@ -280,7 +280,7 @@
     }
 }
 @media (max-width : 460px) {
-    #name {
+    #hero-name {
         font-size: 8vw;
     }
 

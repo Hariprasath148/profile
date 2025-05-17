@@ -92,7 +92,7 @@ export const Contact = () => {
                   <textarea name='message' required className='form-control mt-2 p-2' id='message' rows="3" aria-describedby='subjecthelp'/>
                 </div>
                 <div className="form-group mt-4">
-                  <button type='submit'  className='w-100 border-0 submit-buton rounded-pill py-3 mt-2 text-white' id='message' aria-describedby='subjecthelp'>Submit</button>
+                  <button type='submit'  className='w-100 border-0 submit-button rounded-pill py-3 mt-2 text-white' id='submit' aria-describedby='subjecthelp'>Submit</button>
                 </div>
               </form>
             </div>

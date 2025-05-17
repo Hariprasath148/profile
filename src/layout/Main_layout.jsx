@@ -16,7 +16,7 @@ export const Main_layout = () => {
                   <div className='main-outlet-container p-xl-3 p-2'>
                     <Outlet/>
                   </div>
-                  <Toaster position="top-right" reverseOrder={false} />
+                  <Toaster position="top-center" reverseOrder={false} />
                 </>
             </div>
         </div>

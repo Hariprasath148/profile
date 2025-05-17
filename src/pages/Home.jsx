@@ -54,7 +54,7 @@ export const Home = ()=>{
                         <img src={mypic} alt="" className="w-100 h-100" id="mypic"/>
                     </div>
                     <div className="col-lg-5 col-12 title-container m-0 p-0 d-flex justify-content-center flex-column">
-                        <h1 className="text-white mt-3 mb-0 display-2" id="name">HARI PRASATH J</h1>
+                        <h1 className="text-white mt-3 mb-0 display-2" id="hero-name">HARI PRASATH J</h1>
                         <p className="text-white h5 mt-1" id="known-tags">Full Stack Developer | Problem Solver | Creative Thinker | Web Designer</p>
                         <div className="d-flex flex-row gap-4 mt-2">
                             <NavLink className="btn px-sm-5 py-sm-3 px-3 py-2 rounded-pill border-0" id="about-me-btn" to="/about">About me</NavLink>
