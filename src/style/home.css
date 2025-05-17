@@ -14,12 +14,13 @@
 
 #load-head {
     font-weight: 700;
-    color: white;
+    color: var(--main-color);
 }
 
 #load-text {
     font-weight: 700;
     color: var(--main-color2);
+    font-size: 24px;
 }
 
 .reveal-container-inside {
@@ -53,7 +54,7 @@
         box-shadow: 0 0 0px var(--main-color);
     }
     50% {
-        box-shadow: 0 0 50px var(--main-color);
+        box-shadow: 0 0 30px var(--main-color);
     }
     100% {
         box-shadow: 0 0 0px var(--main-color);
@@ -118,6 +119,7 @@
 #name {
     font-weight: 500;
     font-family: none !important;
+    color: var(--main-color) !important;
 }
 
 .skill-container {
@@ -152,6 +154,11 @@
 
 .social-icon:nth-child(4):hover {
     background-color: #1DA1F2;
+}
+
+.social-icon-reveal {
+    background-color: rgba(255, 255, 255, 0.150);
+    border: 1px solid var(--main-color);
 }
 
 #mypic {
