@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Navigate, useParams } from 'react-router-dom'
 import { projects } from '../objects/project';
 import "../style/projectmore.css"
@@ -8,6 +8,9 @@ export const ProjectsMore = () => {
     const params = useParams();
     const project_presents = projects.some(project => project.route === params.id);
     const project = projects.find(project => project.route === params.id);
+    useEffect(() => {
+      document.querySelector('.root-container')?.scrollTo(0, 0);
+    }, []);
     if(!project_presents) {
         return <div>error not found</div>;
     }
@@ -24,7 +27,9 @@ export const ProjectsMore = () => {
                     <div className="project-hero-long-discription mt-2">{project.long_discription}</div>
                     <div className='project-hero-button-container mt-3 d-flex flex-wrap gap-3'>
                         <a href={project.siteLink} target='blank' className='px-3 py-2 text-decoration-none rounded-2 project-hero-buttons project-hero-buttons-visit'>Visit Site</a>
-                        <a href={project.codeLink} target='blank' className='px-3 py-2 text-decoration-none rounded-2 project-hero-buttons project-hero-buttons-code'>View Code</a>
+                        {
+                            project.codeLink && <a href={project.codeLink} target='blank' className='px-3 py-2 text-decoration-none rounded-2 project-navigate-buttons project-navigate-buttons-code'>View Code</a>
+                        }
                     </div>
                     <div className="tech-container bg-light mt-4 rounded-4 p-4">
                         <div className="project-tech-name">Technology Used</div>
