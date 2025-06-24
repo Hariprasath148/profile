@@ -13,7 +13,7 @@ export const Main_layout = () => {
             <div className='root-container overflow-auto w-100 h-100 rounded-4'>
                 <>
                   <Navbar/>
-                  <div className='main-outlet-container p-xl-3 p-2'>
+                  <div className='main-outlet-container p-3'>
                     <Outlet/>
                   </div>
                   <Toaster position="top-center" reverseOrder={false} />

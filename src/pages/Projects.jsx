@@ -25,7 +25,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className="row  justify-content-center pt-0 mb-4">
-          <div className="col-lg-6 col-12 p-0 d-flex gap-3 justify-content-sm-center overflow-auto">
+          <div className="col-lg-6 col-12 p-0 d-flex gap-3 justify-content-center flex-wrap">
             {
               ["All",...allCategories].map(category=>(
                 <button key={category} className={`category-btn rounded-2 px-3 py-2 text-nowrap ${category===selectedCategory?"active":""}`} onClick={()=>SetSelectedCategory(category)}>{category}</button>
