@@ -14,6 +14,8 @@ import qrGeneratorHeroImg from "../assets/project/13.png"
 import bentoGridHeroImg from "../assets/project/14.png"
 import cosmeticsEcommerceImg from "../assets/project/15.png"
 import cosmeticsEcommerceHeroImg from "../assets/project/16.png"
+import portfolioAdminImg from "../assets/project/17.png"
+import portfolioAdminHeroImg from "../assets/project/18.png"
 
 export const projects = [
     {
@@ -70,6 +72,30 @@ export const projects = [
             "No paper needed : A digital alternative for organizing tasks and schedules.",
             "Fully responsive : Works seamlessly on desktop, tablet, and mobile devices.",
             "Built with pure HTML, CSS, and JavaScript : No external libraries or frameworks used for a lightweight experience."
+        ]
+    },
+    {
+        route : "portfolio-admin",
+        name : "Portfolio Admin Page",
+        siteLink : "https://portfolio-admin-dun.vercel.app/projects",
+        codeLink : "https://github.com/Hariprasath148/Portfolio-admin",
+        img : portfolioAdminImg,
+        HeroImg : portfolioAdminHeroImg,
+        category : "Full Stack",
+        short_discription : "A Glassmorphic Portfolio Admin Dashboard featuring inverted modern curved UI with a blend of aesthetics and functionality.",
+        long_discription : "Thrilled to unveil my Glassmorphic Portfolio Admin Dashboard with Inverted Modern Curved UI — blending cutting-edge design with seamless functionality. This dashboard redefines how admin panels can be both visually stunning and highly functional. With responsive layouts, real-time updates, and a scalable design system, it’s crafted for project management while doubling as a showcase of modern UI artistry.",
+        tech : {
+            HTML : "Structured the dashboard with semantic layout sections for easy navigation.",
+            CSS : "Implemented Glassmorphism panels, inverted curves, minimal palette, and responsive design with Flexbox & Grid.",
+            JS : "Added real-time content updates, intuitive navigation, and optimized performance."
+        },
+        keyPoints : [
+            "Glassmorphism panels : Creates futuristic layered depth with transparency and blur.",
+            "Inverted modern curves : Adds smooth, fluid flow to the overall design.",
+            "Minimal yet elegant : High-contrast accents with soft shadows and blur effects.",
+            "Responsive design : Pixel-perfect layout across all devices.",
+            "Easy project management : Tools for editing, updating, and organizing content.",
+            "Scalable system : Flexible and future-ready design for additional features."
         ]
     },
     {
