@@ -9,7 +9,7 @@ import { toast } from 'react-hot-toast';
 
 export const Contact = () => {
   useEffect(() => {
-    document.title = "Contact Us | Hari Prasath";
+    document.title = "Contact Me | Hari Prasath";
   }, []);
   const form = useRef();
   const sendEmail = (e) => {
