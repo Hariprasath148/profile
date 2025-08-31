@@ -1,8 +1,13 @@
-import React from 'react'
+import { useEffect } from 'react'
 import "../style/about.css"
 import {skills} from "../objects/skills.js"
 
 export const About = () => {
+  
+  useEffect(() => {
+   document.title = "About | Hari Prasath";
+  }, []);
+
   return (
     <div className='about-container w-100 p-4'>
       <div className="heading-container about-heading d-flex justify-content-center align-content-center flex-column flex-wrap">

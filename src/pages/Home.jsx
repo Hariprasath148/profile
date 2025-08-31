@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState , useEffect } from 'react'
 import "../style/home.css"
 import { NavLink } from "react-router-dom"
 import cover from "../assets/images/projectCover2.png"
