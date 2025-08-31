@@ -5,7 +5,9 @@ import {projects} from "../objects/project.js"
 import { NavLink } from 'react-router-dom'
 
 export const Projects = () => {
-
+  useEffect(() => {
+    document.title = "Projects | Hari Prasath";
+  }, []);
   const [selectedCategory , SetSelectedCategory] = useState("All");
   const allCategories = Array.from(
   new Set(projects.map(project => project.category))

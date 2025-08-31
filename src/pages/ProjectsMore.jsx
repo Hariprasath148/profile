@@ -10,6 +10,7 @@ export const ProjectsMore = () => {
     const project = projects.find(project => project.route === params.id);
     useEffect(() => {
       document.querySelector('.root-container')?.scrollTo(0, 0);
+       document.title = ` ${project.name} | Hari Prasath`;
     }, []);
     if(!project_presents) {
         return <div>error not found</div>;

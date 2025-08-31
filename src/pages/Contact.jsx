@@ -8,6 +8,9 @@ import emailjs from "@emailjs/browser";
 import { toast } from 'react-hot-toast';
 
 export const Contact = () => {
+  useEffect(() => {
+    document.title = "Contact Us | Hari Prasath";
+  }, []);
   const form = useRef();
   const sendEmail = (e) => {
     console.log("gHello");

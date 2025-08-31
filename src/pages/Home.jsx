@@ -21,7 +21,9 @@ import { FaPython } from "react-icons/fa";
 
 
 export const Home = ()=>{
-
+    useEffect(() => {
+        document.title = "Home | Hari Prasath";
+    }, []);
     const [state,setState] = useState(true);
     const reveal = ()=> {
     document.querySelector(".reveal-container").classList.toggle("active");
