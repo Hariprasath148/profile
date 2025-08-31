@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef , useEffect } from 'react'
 import { IoMdMailOpen } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
