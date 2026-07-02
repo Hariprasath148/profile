@@ -39,7 +39,7 @@ export const Home = ()=>{
                         <p className='mt-1 text-center' id='load-text'>I'm Hari Prasath.</p>
                         <button id="reveal-btn" className='py-3 px-5 rounded-pill mt-2' onClick={reveal}>Know Me</button>
                         <div className="col-lg-7 col-12 p-0 d-flex gap-3 justify-content-center align-items-end mt-4">
-                            <div className="social-icon social-icon-reveal rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.linkedin.com/in/hari-prasath-j-238776291/" target="_blank"><FaLinkedinIn /></a></div>
+                            {/* <div className="social-icon social-icon-reveal rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.linkedin.com/in/hari-prasath-j-238776291/" target="_blank"><FaLinkedinIn /></a></div> */}
                             <div className="social-icon social-icon-reveal rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://github.com/Hariprasath148" target="_blank"><FaGithub /></a></div>
                             <div className="social-icon social-icon-reveal rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.instagram.com/_.hari.prasath._/" target="_blank"><FaInstagram /></a></div>
                             <div className="social-icon social-icon-reveal rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://x.com/janhhari" target="_blank"><FaTwitter /></a></div>
@@ -76,7 +76,7 @@ export const Home = ()=>{
                 </div>
                 <div className="second-container row justify-content-between w-100 me-xl-5 pb-3 gap-4">
                     <div className="col-lg-7 col-12 link-container p-0 d-flex gap-3 justify-content-start align-items-end mt-4">
-                        <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.linkedin.com/in/hari-prasath-j-238776291/" target="_blank"><FaLinkedinIn /></a></div>
+                        {/* <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.linkedin.com/in/hari-prasath-j-238776291/" target="_blank"><FaLinkedinIn /></a></div> */}
                         <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://github.com/Hariprasath148" target="_blank"><FaGithub /></a></div>
                         <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://www.instagram.com/_.hari.prasath._/" target="_blank"><FaInstagram /></a></div>
                         <div className="social-icon rounded-pill d-flex justify-content-center align-items-center"><a className="text-white" href="https://x.com/janhhari" target="_blank"><FaTwitter /></a></div>
