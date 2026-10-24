@@ -12,28 +12,35 @@ export const Contact = () => {
     document.title = "Contact Me | Hari Prasath";
   }, []);
   const form = useRef();
-  const sendEmail = (e) => {
-    console.log("gHello");
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_2jvnuap",     // Replace with your EmailJS service ID
-        "template_pdjft8g",    // Replace with your EmailJS template ID
-        form.current,
-        "dgbEuOSaVOKm1E2nl"      // Replace with your EmailJS public key
-      )
-      .then(
-        (result) => {
-          console.log("Email sent successfully:", result.text);
-          toast.success("Email Received");
-          document.querySelector("#contactForm").reset();
-        },
-        (error) => {
-          console.error("Email send error:", error.text);
-          toast.error("Something went wrong..")
-        }
-      );
+  const sendEmail = async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(form.current);
+
+  const enquiry = {
+    name: formData.get("name"),
+    email: formData.get("email"),
+    subject: formData.get("subject"),
+    message: formData.get("message"),
+  };
+
+  try {
+    await fetch("https://script.google.com/macros/s/AKfycbyrdrD_vO9-ocnrRxoK7TrW1W_KbMSHe5LsKxirOmaBn_6uTnc6GBDvW11RrVZlV4-P/exec", {
+      method: "POST",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8",
+      },
+      body: JSON.stringify(enquiry),
+    });
+
+    toast.success("Enquiry submitted!");
+    form.current.reset();
+  } catch (error) {
+    console.error("Submission error:", error);
+    toast.error("Something went wrong!");
   }
+};
+  
   return (
     <div className='contact-container'>
       <div className="row">
